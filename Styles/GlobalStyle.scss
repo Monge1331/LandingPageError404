@@ -1,0 +1,21 @@
+// IMPORT FONTS
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+// IMPORT COMPONENTS!!
+@import 'header';
+@import 'background';
+@import 'footer';
+@import 'ContentMain';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body, html {
+  height: 100%;
+  width: 100%;
+}
+

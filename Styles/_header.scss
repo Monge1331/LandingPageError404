@@ -1,0 +1,34 @@
+header {  
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #D3D3D3;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      margin: 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+
+      font-family: 'Sarala', sans-serif;
+      color: #fff;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+
+  img {
+    width: 100px;
+    height:100px;
+    padding: 18px;
+
+    border-radius: 50%;
+  }
+
+
+}
